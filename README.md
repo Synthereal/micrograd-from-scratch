@@ -2,7 +2,7 @@
 
 An Automatic Gradient Engine (Autograd) that implements backpropagation (reverse-mode autodifferentiation) over a Directed Acyclic Graph (DAG), and a small API based on PyTorch.
 
-Based on the tutorial from Andrej Karpathy: ["The spelled-out intro to neural networks and backpropagation: building micrograd"](https://youtu.be/VMj-3S1tku0?si=iX6GS6R8l2tItcOI)
+Based on the tutorial from Andrej Karpathy: [The spelled-out intro to neural networks and backpropagation: building micrograd](https://youtu.be/VMj-3S1tku0?si=iX6GS6R8l2tItcOI)
 
 ### Setup
 
