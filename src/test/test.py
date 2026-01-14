@@ -1,6 +1,7 @@
+# see mlp_implementation.ipynb for original code and full notes
+
 import sys
 import os
-# Adds 'src' to the system path so it can find the 'micrograd' package
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from typing import cast
@@ -27,7 +28,7 @@ ys = [1.0, -1.0, -1.0, 1.0] # desired targets
 
 lr = 0.05 # learning rate
 
-for k in range(150):
+for k in range(200):
 
   # forward pass
   ypred = [n(x) for x in xs]
@@ -43,7 +44,7 @@ for k in range(150):
     p.data += -lr * p.grad
 
   # print output
-  print("step:", k, " loss:", loss.data) # type: ignore
+  print("step:", k + 1, " loss:", loss.data) # type: ignore
 
 
 # Final Verification
