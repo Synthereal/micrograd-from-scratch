@@ -1,4 +1,4 @@
-# see mlp_implementation.ipynb for original code
+# see mlp_implementation.ipynb for original code and full notes
 
 import math
 
